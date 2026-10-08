@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="INNOVA 3D: impresión 3D, diseños personalizados, decoración, accesorios y soluciones innovadoras.">
+
+    <title>INNOVA 3D | Impresión 3D personalizada</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- BARRA SUPERIOR -->
+    <div class="topbar">
+        <p>Diseñamos tus ideas. Las convertimos en realidad.</p>
+        <a href="#contacto">Solicitá tu presupuesto ↗</a>
+    </div>
+
+    <!-- NAVEGACIÓN -->
+    <header class="header">
+        <a href="#inicio" class="logo">
+            <span class="logo-icon">I<span>3D</span></span>
+            <span class="logo-text">INNOVA<span>3D</span></span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+            aria-label="Abrir menú" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav id="nav">
+            <a href="#inicio">Inicio</a>
+            <a href="#categorias">Categorías</a>
+            <a href="#catalogo">Productos</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+            <a href="#contacto" class="nav-button">Pedir presupuesto ↗</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- PORTADA -->
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <span class="eyebrow">
+                    <span class="punto"></span>
+                    IMPRESIÓN 3D · DISEÑO · INNOVACIÓN
+                </span>
+
+                <h1>
+                    Tus ideas merecen
+                    <span>tomar forma.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Creamos productos impresos en 3D para tu hogar,
+                    tu espacio de trabajo y tus proyectos.
+                    Diseños originales, personalizados y hechos a tu medida.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#catalogo" class="btn btn-primary">
+                        Explorar productos <span>↗</span>
+                    </a>
+
+                    <a href="#contacto" class="btn btn-secondary">
+                        Cotizar mi idea
+                    </a>
+                </div>
+
+                <div class="hero-features">
+                    <div>
+                        <span class="feature-icon">✳</span>
+                        <p><strong>Personalización</strong>
+                        <small>Diseños a tu medida</small></p>
+                    </div>
+
+                    <div>
+                        <span class="feature-icon">◇</span>
+                        <p><strong>Creatividad</strong>
+                        <small>Ideas originales</small></p>
+                    </div>
+
+                    <div>
+                        <span class="feature-icon">✓</span>
+                        <p><strong>Compromiso</strong>
+                        <small>Atención personalizada</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1631558559718-3a4b6c4c4f0c?auto=format&fit=crop&w=1000&q=85"
+                        alt="Tecnología y diseño de impresión 3D">
+                </div>
+
+                <div class="floating-card">
+                    <span class="floating-icon">✦</span>
+                    <div>
+                        <strong>Tu idea, nuestra misión</strong>
+                        <small>Imaginá. Diseñá. Creá.</small>
+                    </div>
+                </div>
+
+                <div class="decorative-circle"></div>
+            </div>
+        </section>
+
+        <!-- FRANJA INFORMATIVA -->
+        <section class="benefits">
+            <div>
+                <span>01</span>
+                <p><strong>Diseños personalizados</strong>
+                <small>Productos únicos para cada cliente</small></p>
+            </div>
+
+            <div>
+                <span>02</span>
+                <p><strong>Presupuestos a medida</strong>
+                <small>Según material, tamaño y diseño</small></p>
+            </div>
+
+            <div>
+                <span>03</span>
+                <p><strong>Atención directa</strong>
+                <small>Te acompañamos en tu proyecto</small></p>
+            </div>
+
+            <div>
+                <span>04</span>
+                <p><strong>Ideas innovadoras</strong>
+                <small>Creatividad en cada pieza</small></p>
+            </div>
+        </section>
+
+        <!-- CATEGORÍAS -->
+        <section class="section categories-section" id="categorias">
+            <div class="section-heading">
+                <div>
+                    <span class="section-label">DESCUBRÍ LO QUE PODEMOS CREAR</span>
+                    <h2>Un universo de<br><span>posibilidades.</span></h2>
+                </div>
+
+                <p>
+                    Desde objetos prácticos hasta diseños únicos.
+                    Explorá nuestras categorías y encontrá inspiración.
+                </p>
+            </div>
+
+            <div class="categories-grid">
+
+                <a href="#catalogo" class="category-card"
+                    data-ir-categoria="decoracion">
+                    <span class="category-number">01</span>
+                    <span class="category-symbol">✳</span>
+                    <h3>Decoración</h3>
+                    <p>Objetos que transforman tus espacios.</p>
+                    <span class="category-arrow">↗</span>
+                </a>
+
+                <a href="#catalogo" class="category-card"
+                    data-ir-categoria="hogar">
+                    <span class="category-number">02</span>
+                    <span class="category-symbol">⌂</span>
+                    <h3>Hogar</h3>
+                    <p>Detalles útiles para todos los días.</p>
+                    <span class="category-arrow">↗</span>
+                </a>
+
+                <a href="#catalogo" class="category-card"
+                    data-ir-categoria="organizacion">
+                    <span class="category-number">03</span>
+                    <span class="category-symbol">▤</span>
+                    <h3>Organización</h3>
+                    <p>Soluciones para mantener todo en orden.</p>
+                    <span class="category-arrow">↗</span>
+                </a>
+
+                <a href="#catalogo" class="category-card"
+                    data-ir-categoria="soportes">
+                    <span class="category-number">04</span>
+                    <span class="category-symbol">▣</span>
+                    <h3>Soportes</h3>
+                    <p>Accesorios para dispositivos y escritorios.</p>
+                    <span class="category-arrow">↗</span>
+                </a>
+
+                <a href="#catalogo" class="category-card"
+                    data-ir-categoria="gamer">
+                    <span class="category-number">05</span>
+                    <span class="category-symbol">⌘</span>
+                    <h3>Gamer</h3>
+                    <p>Accesorios para tu espacio de juego.</p>
+                    <span class="category-arrow">↗</span>
+                </a>
+
+                <a href="#catalogo" class="category-card"
+                    data-ir-categoria="figuras">
+                    <span class="category-number">06</span>
+                    <span class="category-symbol">♙</span>
+                    <h3>Figuras</h3>
+                    <p>Diseños decorativos y coleccionables.</p>
+                    <span class="category-arrow">↗</span>
+                </a>
+
+                <a href="#catalogo" class="category-card"
+                    data-ir-categoria="llaveros">
+                    <span class="category-number">07</span>
+                    <span class="category-symbol">⌘</span>
+                    <h3>Llaveros</h3>
+                    <p>Pequeños detalles con tu estilo.</p>
+                    <span class="category-arrow">↗</span>
+                </a>
+
+                <a href="#catalogo" class="category-card"
+                    data-ir-categoria="macetas">
+                    <span class="category-number">08</span>
+                    <span class="category-symbol">❋</span>
+                    <h3>Macetas</h3>
+                    <p>Diseños para tus plantas favoritas.</p>
+                    <span class="category-arrow">↗</span>
+                </a>
+
+                <a href="#catalogo" class="category-card"
+                    data-ir-categoria="repuestos">
+                    <span class="category-number">09</span>
+                    <span class="category-symbol">⚙</span>
+                    <h3>Piezas y repuestos</h3>
+                    <p>Soluciones para proyectos específicos.</p>
+                    <span class="category-arrow">↗</span>
+                </a>
+
+                <a href="#catalogo" class="category-card"
+                    data-ir-categoria="personalizados">
+                    <span class="category-number">10</span>
+                    <span class="category-symbol">✎</span>
+                    <h3>Personalizados</h3>
+                    <p>Tu idea convertida en un producto real.</p>
+                    <span class="category-arrow">↗</span>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- CATÁLOGO -->
+        <section class="section catalog-section" id="catalogo">
+            <div class="section-heading">
+                <div>
+                    <span class="section-label">NUESTRO CATÁLOGO</span>
+                    <h2>Diseños que inspiran.<br><span>Creaciones que sirven.</span></h2>
+                </div>
+
+                <p>
+                    Estos son ejemplos ilustrativos.
+                    Consultanos para personalizar medidas,
+                    colores y diseños.
+                </p>
+            </div>
+
+            <div class="catalog-toolbar">
+                <div class="filter-list" id="filterList">
+                    <button class="filter active" data-filtro="todos">Todos</button>
+                    <button class="filter" data-filtro="decoracion">Decoración</button>
+                    <button class="filter" data-filtro="hogar">Hogar</button>
+                    <button class="filter" data-filtro="organizacion">Organización</button>
+                    <button class="filter" data-filtro="soportes">Soportes</button>
+                    <button class="filter" data-filtro="gamer">Gamer</button>
+                    <button class="filter" data-filtro="figuras">Figuras</button>
+                    <button class="filter" data-filtro="llaveros">Llaveros</button>
+                    <button class="filter" data-filtro="macetas">Macetas</button>
+                    <button class="filter" data-filtro="repuestos">Repuestos</button>
+                    <button class="filter" data-filtro="personalizados">Personalizados</button>
+                </div>
+
+                <label class="search-box">
+                    <span>⌕</span>
+                    <input type="search" id="buscarProducto"
+                        placeholder="Buscar productos..." aria-label="Buscar productos">
+                </label>
+            </div>
+
+            <div class="products-grid">
+
+                <article class="product-card" data-categoria="organizacion"
+                    data-nombre="organizador de escritorio">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=700&q=80"
+                            alt="Organizador para escritorio" loading="lazy">
+                        <span class="product-tag">ORGANIZACIÓN</span>
+                    </div>
+                    <div class="product-info">
+                        <div><span class="product-category">ESCRITORIO</span>
+                        <h3>Organizador de escritorio</h3>
+                        <p>Orden y funcionalidad para tu espacio.</p></div>
+                        <button class="product-add" data-producto="Organizador de escritorio"
+                            aria-label="Consultar organizador de escritorio">+</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-categoria="decoracion"
+                    data-nombre="objeto decorativo">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1490312278390-ab64016e0aa9?auto=format&fit=crop&w=700&q=80"
+                            alt="Objeto decorativo de diseño" loading="lazy">
+                        <span class="product-tag">DISEÑO</span>
+                    </div>
+                    <div class="product-info">
+                        <div><span class="product-category">DECORACIÓN</span>
+                        <h3>Objeto decorativo</h3>
+                        <p>Un detalle original para tu ambiente.</p></div>
+                        <button class="product-add" data-producto="Objeto decorativo"
+                            aria-label="Consultar objeto decorativo">+</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-categoria="soportes"
+                    data-nombre="soporte para dispositivos">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1523206489230-c012c64b2b48?auto=format&fit=crop&w=700&q=80"
+                            alt="Accesorios para dispositivos" loading="lazy">
+                        <span class="product-tag">FUNCIONAL</span>
+                    </div>
+                    <div class="product-info">
+                        <div><span class="product-category">ACCESORIOS</span>
+                        <h3>Soporte para dispositivos</h3>
+                        <p>Comodidad para el trabajo o estudio.</p></div>
+                        <button class="product-add" data-producto="Soporte para dispositivos"
+                            aria-label="Consultar soporte para dispositivos">+</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-categoria="personalizados"
+                    data-nombre="regalo personalizado">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=700&q=80"
+                            alt="Inspiración para regalos originales" loading="lazy">
+                        <span class="product-tag">PERSONALIZABLE</span>
+                    </div>
+                    <div class="product-info">
+                        <div><span class="product-category">REGALOS</span>
+                        <h3>Regalo personalizado</h3>
+                        <p>Un detalle pensado para esa persona.</p></div>
+                        <button class="product-add" data-producto="Regalo personalizado"
+                            aria-label="Consultar regalo personalizado">+</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-categoria="hogar"
+                    data-nombre="accesorio para el hogar">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=700&q=80"
+                            alt="Inspiración para accesorios del hogar" loading="lazy">
+                        <span class="product-tag">HOGAR</span>
+                    </div>
+                    <div class="product-info">
+                        <div><span class="product-category">HOGAR</span>
+                        <h3>Accesorio para el hogar</h3>
+                        <p>Ideas prácticas para cada ambiente.</p></div>
+                        <button class="product-add" data-producto="Accesorio para el hogar"
+                            aria-label="Consultar accesorio para el hogar">+</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-categoria="figuras"
+                    data-nombre="figura decorativa">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?auto=format&fit=crop&w=700&q=80"
+                            alt="Diseño artístico para inspiración" loading="lazy">
+                        <span class="product-tag">CREATIVIDAD</span>
+                    </div>
+                    <div class="product-info">
+                        <div><span class="product-category">FIGURAS</span>
+                        <h3>Figura decorativa</h3>
+                        <p>Un diseño que expresa tu personalidad.</p></div>
+                        <button class="product-add" data-producto="Figura decorativa"
+                            aria-label="Consultar figura decorativa">+</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-categoria="gamer"
+                    data-nombre="accesorio gamer">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=700&q=80"
+                            alt="Espacio de videojuegos" loading="lazy">
+                        <span class="product-tag">GAMER</span>
+                    </div>
+                    <div class="product-info">
+                        <div><span class="product-category">GAMING</span>
+                        <h3>Accesorio gamer</h3>
+                        <p>Personalizá tu espacio de juego.</p></div>
+                        <button class="product-add" data-producto="Accesorio gamer"
+                            aria-label="Consultar accesorio gamer">+</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-categoria="macetas"
+                    data-nombre="maceta de diseño">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=700&q=80"
+                            alt="Plantas y macetas decorativas" loading="lazy">
+                        <span class="product-tag">NATURALEZA</span>
+                    </div>
+                    <div class="product-info">
+                        <div><span class="product-category">MACETAS</span>
+                        <h3>Maceta de diseño</h3>
+                        <p>Un toque verde con estilo propio.</p></div>
+                        <button class="product-add" data-producto="Maceta de diseño"
+                            aria-label="Consultar maceta de diseño">+</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-categoria="llaveros"
+                    data-nombre="llavero personalizado">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=700&q=80"
+                            alt="Accesorios y pequeños objetos" loading="lazy">
+                        <span class="product-tag">DETALLES</span>
+                    </div>
+                    <div class="product-info">
+                        <div><span class="product-category">LLAVEROS</span>
+                        <h3>Llavero personalizado</h3>
+                        <p>Nombres, iniciales y formas originales.</p></div>
+                        <button class="product-add" data-producto="Llavero personalizado"
+                            aria-label="Consultar llavero personalizado">+</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-categoria="repuestos"
+                    data-nombre="pieza o repuesto a medida">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=700&q=80"
+                            alt="Trabajo técnico y desarrollo de piezas" loading="lazy">
+                        <span class="product-tag">A MEDIDA</span>
+                    </div>
+                    <div class="product-info">
+                        <div><span class="product-category">PIEZAS</span>
+                        <h3>Pieza o repuesto a medida</h3>
+                        <p>Consultá por tu proyecto específico.</p></div>
+                        <button class="product-add" data-producto="Pieza o repuesto a medida"
+                            aria-label="Consultar pieza o repuesto">+</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-categoria="organizacion"
+                    data-nombre="organizador de cables">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=700&q=80"
+                            alt="Accesorios para organizar" loading="lazy">
+                        <span class="product-tag">PRÁCTICO</span>
+                    </div>
+                    <div class="product-info">
+                        <div><span class="product-category">ORGANIZACIÓN</span>
+                        <h3>Organizador de cables</h3>
+                        <p>Mantené tus espacios más ordenados.</p></div>
+                        <button class="product-add" data-producto="Organizador de cables"
+                            aria-label="Consultar organizador de cables">+</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-categoria="personalizados"
+                    data-nombre="proyecto personalizado">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=700&q=80"
+                            alt="Desarrollo de proyectos tecnológicos" loading="lazy">
+                        <span class="product-tag">TU IDEA</span>
+                    </div>
+                    <div class="product-info">
+                        <div><span class="product-category">PROYECTOS</span>
+                        <h3>Proyecto personalizado</h3>
+                        <p>Contanos qué necesitás crear.</p></div>
+                        <button class="product-add" data-producto="Proyecto personalizado"
+                            aria-label="Consultar proyecto personalizado">+</button>
+                    </div>
+                </article>
+
+            </div>
+
+            <p class="catalog-note">
+                * Las imágenes son ilustrativas. Los productos, materiales,
+                dimensiones, disponibilidad y precios deben confirmarse por consulta.
+            </p>
+        </section>
+
+        <!-- PROCESO DE TRABAJO -->
+        <section class="section process-section">
+            <div class="section-heading">
+                <div>
+                    <span class="section-label">ASÍ TRABAJAMOS</span>
+                    <h2>De tu idea a<br><span>una pieza real.</span></h2>
+                </div>
+                <p>
+                    Te acompañamos en cada etapa para encontrar
+                    una solución acorde a tu proyecto.
+                </p>
+            </div>
+
+            <div class="process-grid">
+                <article>
+                    <span>01</span>
+                    <h3>Nos contás tu idea</h3>
+                    <p>Explicanos qué producto necesitás o qué querés diseñar.</p>
+                </article>
+
+                <article>
+                    <span>02</span>
+                    <h3>Evaluamos el proyecto</h3>
+                    <p>Revisamos medidas, materiales, detalles y posibilidades.</p>
+                </article>
+
+                <article>
+                    <span>03</span>
+                    <h3>Preparamos el presupuesto</h3>
+                    <p>Te informamos el costo estimado y las condiciones del pedido.</p>
+                </article>
+
+                <article>
+                    <span>04</span>
+                    <h3>Le damos forma</h3>
+                    <p>Una vez confirmado el pedido, avanzamos con la producción.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- SOBRE NOSOTROS -->
+        <section class="section about-section" id="nosotros">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=900&q=85"
+                    alt="Tecnología y creatividad aplicada a proyectos" loading="lazy">
+
+                <div class="about-stamp">
+                    <strong>INNOVA 3D</strong>
+                    <span>IMAGINÁ · DISEÑÁ · IMPRIMÍ</span>
+                </div>
+            </div>
+
+            <div class="about-content">
+                <span class="section-label">QUIÉNES SOMOS</span>
+                <h2>Innovación que<br><span>se puede tocar.</span></h2>
+
+                <p class="about-intro">
+                    INNOVA 3D es una propuesta de impresión 3D
+                    que busca transformar ideas en productos útiles,
+                    creativos y personalizados.
+                </p>
+
+                <div class="about-block">
+                    <span>↗</span>
+                    <div>
+                        <h3>Nuestra misión</h3>
+                        <p>
+                            Ofrecer productos impresos en 3D de calidad,
+                            creativos y personalizados, mediante soluciones
+                            innovadoras y accesibles.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about-block">
+                    <span>◎</span>
+                    <div>
+                        <h3>Nuestra visión</h3>
+                        <p>
+                            Ser una microempresa reconocida por su innovación,
+                            calidad y creatividad, adaptándonos a las nuevas tecnologías.
+                        </p>
+                    </div>
+                </div>
+
+                <h3 class="values-title">Nuestros valores</h3>
+
+                <div class="values-list">
+                    <span>Innovación</span>
+                    <span>Calidad</span>
+                    <span>Responsabilidad</span>
+                    <span>Creatividad</span>
+                    <span>Compromiso</span>
+                    <span>Sustentabilidad</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- OBJETIVOS -->
+        <section class="goals-section">
+            <div class="goals-inner">
+                <div>
+                    <span class="section-label">NUESTRO COMPROMISO</span>
+                    <h2>Crecer creando.<br><span>Mejorar innovando.</span></h2>
+                </div>
+
+                <div class="goals-list">
+                    <p><span>✓</span> Crear productos según las necesidades de cada cliente.</p>
+                    <p><span>✓</span> Ofrecer calidad a precios accesibles.</p>
+                    <p><span>✓</span> Incorporar nuevos diseños y tecnologías.</p>
+                    <p><span>✓</span> Ampliar nuestra comunidad de clientes.</p>
+                    <p><span>✓</span> Reducir el desperdicio de materiales.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- UBICACIÓN ESTRATÉGICA -->
+        <section class="section location-section" id="ubicacion">
+            <div class="section-heading">
+                <div>
+                    <span class="section-label">PLANIFICACIÓN DEL NEGOCIO</span>
+                    <h2>Una ubicación<br><span>pensada estratégicamente.</span></h2>
+                </div>
+
+                <p>
+                    Elegir bien dónde operar permite mejorar la atención,
+                    organizar las entregas y acercarnos a nuestros clientes.
+                </p>
+            </div>
+
+            <div class="location-grid">
+                <article>
+                    <span>01</span>
+                    <h3>Accesibilidad</h3>
+                    <p>Facilitar el retiro de pedidos y la coordinación de entregas.</p>
+                </article>
+
+                <article>
+                    <span>02</span>
+                    <h3>Cercanía</h3>
+                    <p>Conocer las necesidades de los clientes de nuestra zona.</p>
+                </article>
+
+                <article>
+                    <span>03</span>
+                    <h3>Costos</h3>
+                    <p>Considerar gastos de producción, transporte y materiales.</p>
+                </article>
+
+                <article>
+                    <span>04</span>
+                    <h3>Visibilidad</h3>
+                    <p>Combinar la presencia local con una buena comunicación digital.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section class="section contact-section" id="contacto">
+            <div class="contact-copy">
+                <span class="section-label">HABLEMOS DE TU PROYECTO</span>
+                <h2>La próxima gran idea<br><span>puede ser la tuya.</span></h2>
+
+                <p>
+                    ¿Tenés un diseño, una idea o una pieza que necesitás?
+                    Escribinos para consultar opciones y solicitar un presupuesto.
+                </p>
+
+                <div class="contact-details">
+                    <a href="https://wa.me/5491100000000" id="whatsappLink"
+                        target="_blank" rel="noopener noreferrer">
+                        <span class="contact-icon">✆</span>
+                        <span><small>WHATSAPP</small>
+                        <strong id="phoneText">+54 9 11 0000-0000</strong></span>
+                    </a>
+
+                    <a href="mailto:contacto@innova3d.com" id="emailLink">
+                        <span class="contact-icon">✉</span>
+                        <span><small>CORREO ELECTRÓNICO</small>
+                        <strong id="emailText">contacto@innova3d.com</strong></span>
+                    </a>
+
+                    <div class="contact-detail">
+                        <span class="contact-icon">⌖</span>
+                        <span><small>ZONA DE ATENCIÓN</small>
+                        <strong>Consultar disponibilidad y entregas</strong></span>
+                    </div>
+                </div>
+
+                <p class="contact-small">
+                    Los datos de contacto son ejemplos y deben actualizarse antes de publicar.
+                </p>
+            </div>
+
+            <form id="contactForm" class="contact-form">
+                <h3>Solicitá tu presupuesto</h3>
+                <p>Completá los datos y prepará tu consulta.</p>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre"
+                            placeholder="Tu nombre" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Tu correo</label>
+                        <input type="email" id="email"
+                            placeholder="nombre@correo.com" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="tipo">Tipo de proyecto</label>
+                    <select id="tipo" required>
+                        <option value="Producto personalizado">Producto personalizado</option>
+                        <option value="Decoración y hogar">Decoración y hogar</option>
+                        <option value="Accesorios y soportes">Accesorios y soportes</option>
+                        <option value="Figuras y llaveros">Figuras y llaveros</option>
+                        <option value="Piezas y repuestos">Piezas y repuestos</option>
+                        <option value="Prototipo">Prototipo</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Contanos tu idea</label>
+                    <textarea id="mensaje" rows="5"
+                        placeholder="Medidas aproximadas, uso, color, cantidad..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary form-submit">
+                    Preparar consulta por correo ↗
+                </button>
+
+                <p class="form-note" id="formNote">
+                    Se abrirá tu aplicación de correo para que puedas revisar y enviar el mensaje.
+                </p>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA PROFESIONAL -->
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="footer-brand">
+                <a href="#inicio" class="logo footer-logo">
+                    <span class="logo-icon">I<span>3D</span></span>
+                    <span class="logo-text">INNOVA<span>3D</span></span>
+                </a>
+
+                <p>
+                    Imaginá, diseñá e imprimí tus ideas.
+                    Soluciones creativas y personalizadas mediante impresión 3D.
+                </p>
+
+                <a href="#contacto" class="footer-cta">
+                    Hablemos de tu idea ↗
+                </a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Navegación</h3>
+                <a href="#inicio">Inicio</a>
+                <a href="#categorias">Categorías</a>
+                <a href="#catalogo">Catálogo</a>
+                <a href="#nosotros">Sobre nosotros</a>
+                <a href="#ubicacion">Ubicación estratégica</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Categorías</h3>
+                <a href="#catalogo" data-pie-categoria="decoracion">Decoración</a>
+                <a href="#catalogo" data-pie-categoria="hogar">Hogar</a>
+                <a href="#catalogo" data-pie-categoria="gamer">Accesorios gamer</a>
+                <a href="#catalogo" data-pie-categoria="figuras">Figuras</a>
+                <a href="#catalogo" data-pie-categoria="personalizados">Personalizados</a>
+            </div>
+
+            <div class="footer-column footer-contact">
+                <h3>Contacto</h3>
+                <p><span>WhatsApp</span>
+                <a href="https://wa.me/5491100000000" id="footerWhatsapp">+54 9 11 0000-0000</a></p>
+
+                <p><span>Correo</span>
+                <a href="mailto:contacto@innova3d.com" id="footerEmail">contacto@innova3d.com</a></p>
+
+                <p><span>Atención</span>
+                <a href="#contacto">Solicitar información</a></p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                © <span id="year"></span> <strong>INNOVA 3D</strong>.
+                Todos los derechos reservados.
+            </p>
+
+            <p class="footer-legal">
+                Diseño y desarrollo para INNOVA 3D.
+            </p>
+
+            <a href="#inicio">Volver arriba ↑</a>
+        </div>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
